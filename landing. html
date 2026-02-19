@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Landing Page</title>
+</head>
+<body>
+
+<header>
+    <h2>MyShop</h2>
+    <nav>
+        <ul>
+            <li><a href="#">Electronics</a></li>
+            <li><a href="#">Clothing</a></li>
+            <li><a href="#">Shoes</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section>
+    <h1>Welcome to MyShop</h1>
+    <p>Your one-stop online store!</p>
+    <button>Shop Now</button>
+</section>
+
+<section>
+    <h2>Featured Products</h2>
+</section>
+
+<section>
+    <h2>Discounted Products</h2>
+</section>
+
+</body>
+</html>
