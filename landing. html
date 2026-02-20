@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <header>
-    <h2>MyShop</h2>
+    <h2>My Shoes</h2>
     <nav>
         <ul>
-            <li><a href="#">Electronics</a></li>
-            <li><a href="#">Clothing</a></li>
             <li><a href="#">Shoes</a></li>
         </ul>
     </nav>
 </header>
 
 <section>
-    <h1>Welcome to MyShop</h1>
+    <h1>Welcome to MyShoes</h1>
     <p>Your one-stop online store!</p>
     <button>Shop Now</button>
 </section>
