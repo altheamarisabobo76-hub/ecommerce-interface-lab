@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   <meta charset="UTF-8">
     <title>My Account</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -18,8 +20,8 @@
     <h3>Previous Purchases</h3>
     <details>
         <summary>Order #1234</summary>
-        <p>Product: Uratex chair</p>
-        <p>Total: 350</p>
+        <p>Product:Nike Shoes</p>
+        <p>Total: 1,500</p>
     </details>
 </section>
 
