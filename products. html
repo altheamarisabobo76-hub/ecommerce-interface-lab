@@ -1,15 +1,17 @@
  <!DOCTYPE html>
 <html lang="en">
 <head>
+   <meta charset="UTF-8">
     <title>Products</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <main>
     <article>
         <img src="product1.jpg" alt="Product 1">
-        <h3>Handyman</h3>
-        <p>$50</p>
+        <h3>MyShoes</h3>
+        <p>1,500</p>
         <a href="detail.html">View Details</a>
     </article>
 </main>
@@ -18,10 +20,9 @@
     <form>
         <h3>Filter</h3>
         <label><input type="checkbox"> On Sale</label><br>
-        <label><input type="radio" name="price"> Under 150 pesos</label><br>
-        <label><input type="radio" name="price"> Over 150 pesos</label>
+        <label><input type="radio" name="price"> Under 1500 pesos</label><br>
+        <label><input type="radio" name="price"> Over 1500 pesos</label>
     </form>
 </aside>
-
 </body>
 </html>
