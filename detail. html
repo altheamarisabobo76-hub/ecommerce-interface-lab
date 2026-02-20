@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Product Detail</title>
+</head>
+<body>
+
+<h2>Handyman</h2>
+
+<table border="1">
+    <tr>
+        <th>Specification</th>
+        <th>Details</th>
+    </tr>
+    <tr>
+        <td>Brand</td>
+        <td>Uratex</td>
+    </tr>
+</table>
+
+<form>
+    <label>Quantity:
+        <input type="number" min="1" value="1">
+    </label>
+    <button>Add to Cart</button>
+</form>
+
+<section>
+    <h3>User Reviews</h3>
+    <article>
+        <p><strong>John:</strong></p>
+        <blockquote>Great product!</blockquote>
+    </article>
+</section>
+
+</body>
+</html>
