@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Account</title>
+</head>
+<body>
+
+<header>
+    <h2>Welcome, User</h2>
+    <nav>
+        <a href="#">Order History</a> |
+        <a href="#">Profile Settings</a> |
+        <a href="#">Wishlist</a>
+    </nav>
+</header>
+
+<section>
+    <h3>Previous Purchases</h3>
+    <details>
+        <summary>Order #1234</summary>
+        <p>Product: Uratex chair</p>
+        <p>Total: 350</p>
+    </details>
+</section>
+
+</body>
+</html>
