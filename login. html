@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Log In</title>
+</head>
+<body>
+
+<form>
+    <h2>Log In</h2>
+
+    <label>Email:
+        <input type="email" required>
+    </label><br><br>
+
+    <label>Password:
+        <input type="password" required>
+    </label><br><br>
+
+    <button type="submit">Log In</button>
+</form>
+
+</body>
+</html>
