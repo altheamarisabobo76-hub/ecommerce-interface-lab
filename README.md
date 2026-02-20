@@ -1,2 +1,3 @@
 # ecommerce-interface-lab
 SUBMITTED BY: ABOBO,ALTHEA MARIS T.
+GALOS, JASPER KENT A.
