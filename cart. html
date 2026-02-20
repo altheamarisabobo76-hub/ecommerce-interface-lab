@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   <meta charset="UTF-8">
     <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <ul>
     <li>
         <img src="product1.jpg" alt="Product">
-        <h3>Uratex Chair</h3>
-        <p>350</p>
+        <h3>Nike Shoes</h3>
+        <p>1,500</p>
         <label>Qty:
             <input type="number" value="1" min="1">
         </label>
     </li>
 </ul>
-
 <section>
-    <h3>Subtotal: 350</h3>
+    <h3>Subtotal: 1,500</h3>
 </section>
 
 <a href="checkout.html">Proceed to Checkout</a>
@@ -25,6 +25,5 @@
 <section>
     <p>Your cart is currently empty.</p>
 </section>
-
 </body>
 </html>
