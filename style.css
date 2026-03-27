@@ -292,4 +292,11 @@ table td:first-child {
     font-size: 24px;
     color: var(--accent-color);
 }
+.error {
+    border: 1px solid red;
+}
 
+.error-msg {
+    color: red;
+    font-size: 12px;
+}
