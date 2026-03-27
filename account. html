@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <title>My Account</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h2>Welcome, User</h2>
+    <!-- This will be updated dynamically -->
+    <h2 id="greeting">Welcome, User</h2>
+
     <nav>
         <a href="#">Order History</a> |
         <a href="#">Profile Settings</a> |
@@ -18,11 +20,20 @@
 
 <section>
     <h3>Previous Purchases</h3>
-    <details>
-        <summary>Order #1234</summary>
-        <p>Product:Nike Shoes</p>
-        <p>Total: 1,500</p>
-    </details>
+
+    <!-- JavaScript will insert orders here -->
+    <div id="orders">
+
+        <!-- Example structure -->
+        <details>
+            <summary>Order #1234</summary>
+            <div class="order-content">
+                <!-- Order details will be injected dynamically -->
+            </div>
+        </details>
+
+    </div>
+
 </section>
 
 </body>
