@@ -2,38 +2,56 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-    <title>Checkout</title>
-    <link rel="stylesheet" href="style.css">
+  <title>Checkout</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<form id="checkout-form">
+
 <section>
     <h2>Shipping Information</h2>
-    <form>
-        <fieldset>
-            <legend>Shipping Address</legend>
-            <label>Name: <input type="text" required></label><br>
-            <label>Street: <input type="text" required></label><br>
-            <label>Zip Code: <input type="text" required></label>
-        </fieldset>
-    </form>
+
+    <fieldset>
+        <legend>Shipping Address</legend>
+
+        <label>Name:
+            <input type="text" id="name">
+            <span class="error-msg"></span>
+        </label><br>
+
+        <label>Street:
+            <input type="text" id="street">
+            <span class="error-msg"></span>
+        </label><br>
+
+        <label>Zip Code:
+            <input type="text" id="zip">
+            <span class="error-msg"></span>
+        </label>
+    </fieldset>
+
 </section>
 
 <section>
     <h2>Payment</h2>
-    <form>
-        <label><input type="radio" name="payment"> Credit Card</label><br>
-          <label><input type="radio" name="payment"> Gcash</label>
-        <label><input type="radio" name="payment"> PayPal</label>
-    </form>
+
+    <label><input type="radio" name="payment" value="card"> Credit Card</label><br>
+    <label><input type="radio" name="payment" value="gcash"> Gcash</label><br>
+    <label><input type="radio" name="payment" value="paypal"> PayPal</label>
+
+    <p id="payment-error" class="error-msg"></p>
 </section>
 
 <aside>
     <h3>Order Summary</h3>
-    <p>Total: 1,500</p>
+    <p>Total: ₱1,500</p>
 </aside>
 
-<button>Place Order</button>
+<button type="submit">Place Order</button>
 
+</form>
+
+<script src="checkout.js"></script>
 </body>
 </html>
