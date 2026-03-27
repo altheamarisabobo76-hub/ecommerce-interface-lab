@@ -1,19 +1,21 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <title>Products</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <main>
-    <article>
-        <img src="product1.jpg" alt="Product 1">
-        <h3>MyShoes</h3>
-        <p>1,500</p>
-        <a href="detail.html">View Details</a>
-    </article>
+    <section class="product-grid">
+
+        <div class="product-card" id="product1">
+            <h4>Nike Shoes</h4>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+    </section>
 </main>
 
 <aside>
@@ -24,5 +26,7 @@
         <label><input type="radio" name="price"> Over 1500 pesos</label>
     </form>
 </aside>
+
+<script src="script.js"></script>
 </body>
 </html>
