@@ -12,7 +12,7 @@ function checkVariable(input) {
         case "undefined":
             return "undefined";
         case "object":
-            return "object"; // covers null and objects
+            return input === null ? "null" : "object"; // fix for null
         default:
             return "unknown";
     }
@@ -27,7 +27,7 @@ function generateIDs(count) {
         if (i === 5) {
             continue; // skip number 5
         }
-        ids.push(ID-${i});
+        ids.push(`ID-${i}`); // FIX: use backticks
     }
 
     return ids;
@@ -51,7 +51,7 @@ function calculateTotal(...numbers) {
 function getTopScorers(playerList) {
 
     return playerList
-        .filter(player => player.score > 😎
+        .filter(player => player.score > 8) // FIX: replace 😎 with a number
         .map(player => player.name)
         .join(", ");
 }
@@ -94,6 +94,8 @@ function safeDivide(a, b) {
     }
 }
 
+
+// TESTS
 console.log(checkVariable(10));
 console.log(generateIDs(7));
 console.log(calculateTotal(1,2,3,4));
